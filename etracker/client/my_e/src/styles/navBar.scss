@@ -1,0 +1,22 @@
+*{
+    background-color: grey;
+}
+li{
+    list-style-type: none;
+}
+
+.navbar{
+    display: flex; 
+    margin: 0 2rem;
+    //background-color: grey;
+    &__item{
+        display: inline-flex;
+        justify-content: flex-end;
+        color: honeydew;
+        
+        &--1{
+            margin: 0 30px;
+
+        }
+    }
+}
